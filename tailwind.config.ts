@@ -21,6 +21,7 @@ const config = {
       backgroundImage: {
         hero: "url('/mb-hero.png')",
         herolg: "url('/bg-hero.png')",
+        pricebg: "url('/bg-preço.jpg')",
       },
       colors: {
         border: "hsl(var(--border))",

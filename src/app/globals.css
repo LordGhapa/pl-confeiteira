@@ -13,7 +13,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: #e8590c;
+    --primary: #ff5200;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -86,7 +86,6 @@
   }
 }
 
-
 @media (min-height: 640px) {
   .hero-mobile {
     min-height: 400px;
@@ -105,6 +104,21 @@
     max-width: 350px;
   }
 }
-body,html {
+body,
+html {
   overflow-x: hidden;
+}
+.secao_preço {
+  background: linear-gradient(
+      91.29deg,
+      #f59047 -7.21%,
+      rgba(209, 119, 55, 0.24) 28.79%,
+      rgba(203, 119, 57, 0.36) 68.39%,
+      rgba(124, 55, 5, 0.459) 99.59%
+    ),
+    url("/bg-preço.jpg");
+    background-position: right;
+}
+.discount {
+  transform: translateY(-50%) translateX(-50%) translateX(50px) rotate(45deg);
 }
