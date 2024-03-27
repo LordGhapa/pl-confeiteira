@@ -3,36 +3,36 @@ import { Button } from "./ui/button";
 
 export default function Price() {
   return (
-    <div className="  bg-pricebg secao_preço flex min-h-[937px] items-center justify-center bg-left">
-      <div className="container  flex justify-center">
-        <div className="cta relative flex h-[621px] w-[740px] flex-col items-center justify-center overflow-hidden rounded-2xl bg-white px-20 py-24">
-          <div className="discount absolute -right-20 top-12 w-44   bg-black py-1 text-center text-2xl font-bold  text-[#fff500]">
+    <div className="  bg-pricebg secao_preço flex items-center justify-center bg-left py-12 lg:min-h-[937px]">
+      <div className="container flex justify-center px-3">
+        <div className="cta relative flex w-[740px] flex-col items-center justify-center overflow-hidden rounded-2xl bg-white py-12 pt-16  md:h-[621px] lg:px-20 lg:py-24">
+          <div className="discount absolute -right-20 top-10 w-44  bg-black   text-center text-lg font-bold text-[#fff500] lg:top-12 lg:py-1  lg:text-2xl">
             20% OFF
           </div>
-          <p className="mb-12 text-4xl font-bold">
+          <p className=" mb-2 text-lg font-bold md:mb-12 md:text-4xl">
             Aproveite o Valor Promocional
           </p>
           {/*  */}
           <div className="flex flex-col items-center font-bold">
-            <p className="m-0 p-0 text-3xl">
+            <p className=" text-lg md:text-3xl">
               De:{" "}
               <span className="font-normal text-red-500 line-through ">
                 R$ 621.25
               </span>
             </p>
-            <p className=" flex items-center text-8xl ">
-              <span className="text-[40px]">12x</span>
+            <p className=" flex items-center text-5xl md:text-8xl ">
+              <span className="text-3xl md:text-[40px]">12x</span>
               R$ 41
-              <span className="text-[40px]">,99</span>
+              <span className="text-3xl  md:text-[40px]">,99</span>
             </p>
             <p className="text-2xl font-normal">ou à Vista por R$ 497</p>
           </div>
           {/*  */}
-          <div className="BUTTON mt-8">
-            <Button className="w-[520px] bg-[#1a1a1a] p-8 text-base font-bold transition-all delay-300 ease-in-out hover:scale-110">
+          <div className="BUTTON mt-4 md:mt-8">
+            <Button className="bg-[#1a1a1a] p-4 text-base font-bold transition-all delay-300 ease-in-out hover:scale-110 sm:p-8 lg:w-[520px]">
               QUERO GARANTIR MINHA VAGA
             </Button>
-            <p className="mt-4 flex justify-between font-bold">
+            <p className="mt-4 flex flex-col items-center text-xs font-bold sm:flex-row sm:justify-between lg:text-base">
               <span className="flex gap-1">
                 <Image
                   alt="confirmed icon "
@@ -53,7 +53,7 @@ export default function Price() {
               </span>
             </p>
           </div>
-          <p className="mt-8 text-center text-2xl font-bold">
+          <p className="mt-8 text-center text-lg font-bold lg:text-2xl">
             AS VAGAS SÃO LIMITADAS!
           </p>
         </div>

@@ -41,7 +41,7 @@ export default function CardHeader() {
   }
 
   return (
-    <div className="mt-4 flex flex-col items-center justify-center gap-6 rounded-2xl  bg-white p-4 md:flex-row md:justify-around md:p-4">
+    <div className="mt-4 flex flex-col items-center justify-center gap-6 rounded-2xl  bg-white p-4 md:flex-row md:justify-around md:p-8">
       <InnerCard
         url="/escudo.svg"
         alt="escudo laranja"

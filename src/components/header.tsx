@@ -33,7 +33,7 @@ export default function Header() {
           </div>
           {/*  */}
           <div className="px-5">
-            <Button className="relative z-10 w-full transition-all ease-in-out hover:scale-105 hover:bg-orange-600 md:p-8 md:text-2xl lg:mt-3 lg:px-20 lg:py-4 lg:text-base ">
+            <Button className="relative z-10 w-full transition-all ease-in-out hover:scale-105 hover:bg-orange-600 md:p-8 md:text-2xl lg:mt-3 lg:px-20 lg:py-6 lg:text-base ">
               QUERO ME INSCREVER AGORA
             </Button>
             <p>
@@ -44,7 +44,7 @@ export default function Header() {
         </div>
       </div>
       {/*  */}
-      <div className="container px-5 lg:absolute lg:top-[510px] lg:mx-auto lg:w-[725px] lg:self-center">
+      <div className="container px-5 lg:absolute lg:top-[510px] lg:mx-auto  lg:h-[140px] lg:w-[850px] lg:self-center">
         <CardHeader />
       </div>
     </header>
