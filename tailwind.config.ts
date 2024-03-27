@@ -22,6 +22,7 @@ const config = {
         hero: "url('/mb-hero.png')",
         herolg: "url('/bg-hero.png')",
         pricebg: "url('/bg-preço.jpg')",
+        bg2: "url('/bg-secao2.png')",
       },
       colors: {
         border: "hsl(var(--border))",

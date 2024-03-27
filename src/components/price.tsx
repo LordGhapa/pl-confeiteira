@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 export default function Price() {
   return (
-    <div className="  bg-pricebg secao_preço flex items-center justify-center bg-left py-12 lg:min-h-[937px]">
+    <div className="  secao_preço flex items-center justify-center bg-pricebg bg-left py-12 lg:min-h-[937px]">
       <div className="container flex justify-center px-3">
         <div className="cta relative flex w-[740px] flex-col items-center justify-center overflow-hidden rounded-2xl bg-white py-12 pt-16  md:h-[621px] lg:px-20 lg:py-24">
           <div className="discount absolute -right-20 top-10 w-44  bg-black   text-center text-lg font-bold text-[#fff500] lg:top-12 lg:py-1  lg:text-2xl">
