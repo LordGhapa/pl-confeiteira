@@ -33,7 +33,7 @@ export default function CardHeader() {
           height={size + 20}
           className="hidden md:block"
         />
-        <p className="display flex flex-col text-xs font-bold uppercase text-primary md:text-lg ">
+        <p className="display flex flex-col text-xs  font-bold uppercase text-primary md:text-lg ">
           {nome1} <span>{nome2}</span>
         </p>
       </div>

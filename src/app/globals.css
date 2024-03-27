@@ -84,7 +84,27 @@
     background-position-y: 0px;
     background-position-x: 0px;
   }
-  .hero-mobile{
-    width: 450px !important;
+}
+
+
+@media (min-height: 640px) {
+  .hero-mobile {
+    min-height: 400px;
   }
+}
+@media (min-height: 1031px) {
+  .hero-mobile {
+    min-height: 600px;
+    min-width: 600px;
+  }
+}
+
+@media (min-height: 800px) {
+  .hero-mobile {
+    /* min-height:600px; */
+    max-width: 350px;
+  }
+}
+body,html {
+  overflow-x: hidden;
 }
