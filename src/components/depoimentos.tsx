@@ -69,7 +69,7 @@ export default function Depoimentos() {
             </div>
           </div>
         </Slider>
-        <Button className="relative z-10  mx-auto  flex w-full max-w-md transition-all ease-in-out hover:scale-105 hover:bg-orange-600 md:p-8 md:text-2xl lg:mt-3 lg:px-20 lg:py-6 lg:text-base ">
+        <Button className="animate relative z-10  mx-auto  flex w-full max-w-md transition-all ease-in-out hover:scale-105 hover:bg-orange-600 md:p-8 md:text-2xl lg:mt-3 lg:px-20 lg:py-6 lg:text-base ">
           QUERO RESERVAR MINHA VAGA
         </Button>
       </div>
