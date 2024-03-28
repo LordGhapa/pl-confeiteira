@@ -13,7 +13,7 @@ const info = [
       "Você pode pagar com cartão de crédito, com dois cartões diferentes, boleto, PIX, uma parte em PIX e outra com cartão, saldo na Hotmart e PayPal.",
   },
   {
-    title: "em quanto tempo terei acesso ?",
+    title: "Em quanto tempo terei acesso ?",
     content: "Logo apos a aprovação do pagamento ",
   },
   {
@@ -42,7 +42,7 @@ export default function FaqAccordion() {
             className="borda"
             value={`item-${index + 1}`}
           >
-            <AccordionTrigger className="text-lg font-bold">
+            <AccordionTrigger className="text-left text-base  font-bold sm:text-lg">
               {data.title}
             </AccordionTrigger>
             <AccordionContent>{data.content}</AccordionContent>

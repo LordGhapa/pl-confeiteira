@@ -1,3 +1,6 @@
+import About from "@/components/about";
+import Depoimentos from "@/components/depoimentos";
+import Faq from "@/components/faq";
 import Footer from "@/components/footer";
 import Garantia from "@/components/garantia";
 import Header from "@/components/header";
@@ -7,11 +10,14 @@ import Secao2 from "@/components/secao2";
 export default function Home() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <Secao2 />
-      {/* <Price /> */}
-      {/* <Garantia /> */}
-      {/* <Footer /> */}
+      <Depoimentos />
+      <About />
+      <Price />
+      <Garantia />
+      <Faq />
+      <Footer />
     </>
   );
 }
